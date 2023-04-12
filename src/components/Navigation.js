@@ -1,28 +1,28 @@
 import "../styles/Navigation.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link className="nav-link" to="/">
+        <NavLink className="nav-link" to="/">
           About Me
-        </Link>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/portfolio">
+        <NavLink className="nav-link" to="/portfolio">
           Portfolio
-        </Link>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/contact">
+        <NavLink className="nav-link" to="/contact">
           Contact
-        </Link>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/resume">
+        <NavLink className="nav-link" to="/resume">
           Resume
-        </Link>
+        </NavLink>
       </li>
     </ul>
   );
