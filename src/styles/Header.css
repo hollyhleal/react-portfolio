@@ -1,6 +1,7 @@
 .header {
   background: #68b0ab;
   height: 200px;
+  float: left;
 }
 
 .header h1 {

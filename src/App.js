@@ -1,4 +1,4 @@
-import { HeaderContent } from "semantic-ui-react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import siteHeader from "./components/Header";
 // import navigation from ;
 // import project from ;
@@ -6,14 +6,15 @@ import siteHeader from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <HeaderContent>{siteHeader}</HeaderContent>
-      {/* <Navigation />
-      <div>
-        <Project />
-      </div>
-      <Footer /> */}
-    </div>
+    <>
+      <Router>
+        {siteHeader}
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<aboutMe />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
