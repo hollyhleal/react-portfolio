@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import siteHeader from "./components/Header";
 import Navigation from "./components/Navigation";
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <Router>
-        {siteHeader}
+        {/* <siteHeader /> */}
         <Navigation />
         <Routes>
           <Route path="/react-portfolio" element={<About />} />
