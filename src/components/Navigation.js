@@ -1,53 +1,53 @@
 // import "../styles/Navigation.css";
-import { NavLink } from "react-router-dom";
+import { Nav } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 
 function Navigation() {
   return (
-    <Navbar>
+    <Nav className="justify-content-end">
       <ul className="nav nav-tabs">
         <li className="nav-item">
-          <NavLink
+          <Nav.Link
             to="/react-portfolio"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
             About Me
-          </NavLink>
+          </Nav.Link>
         </li>
         <li className="nav-item">
-          <NavLink
+          <Nav.Link
             to="/react-portfolio/portfolio"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
             Portfolio
-          </NavLink>
+          </Nav.Link>
         </li>
         <li className="nav-item">
-          <NavLink
+          <Nav.Link
             to="/react-portfolio/contact"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
             Contact
-          </NavLink>
+          </Nav.Link>
         </li>
         <li className="nav-item">
-          <NavLink
+          <Nav.Link
             to="/react-portfolio/resume"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
             Resume
-          </NavLink>
+          </Nav.Link>
         </li>
       </ul>
-    </Navbar>
+    </Nav>
   );
 }
 

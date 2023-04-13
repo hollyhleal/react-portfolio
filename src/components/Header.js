@@ -5,7 +5,7 @@ import Navigation from "./Navigation";
 
 function Header() {
   return (
-    <Container>
+    <Container fluid>
       <Navbar.Brand>Holly Leal</Navbar.Brand>
       <Navigation />
     </Container>
