@@ -1,11 +1,17 @@
-export default function About() {
+import React from "react";
+import hollylealphoto from "../../images/hollylealphoto.jpeg";
+
+function About() {
   return (
     <div>
+      <img src={hollylealphoto} alt="Holly Leal profile" />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex.
+        Welcome! My name is Holly Leal and I am approaching graduation in the
+        University of Denver's Full-Stack Coding Boot Camp. I live in Lakewood,
+        Colorado and enjoy hiking, skiing and traveling to new places.
       </p>
     </div>
   );
 }
+
+export default About;
