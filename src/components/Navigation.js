@@ -5,22 +5,42 @@ function Navigation() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <NavLink className="nav-link" to="/">
+        <NavLink
+          to="/"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
           About Me
         </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/portfolio">
+        <NavLink
+          to="/portfolio"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
           Portfolio
         </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/contact">
+        <NavLink
+          to="/contact"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
           Contact
         </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/resume">
+        <NavLink
+          to="/resume"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
           Resume
         </NavLink>
       </li>
