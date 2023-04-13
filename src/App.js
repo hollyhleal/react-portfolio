@@ -5,7 +5,7 @@ import About from "./components/pages/About";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 import Resume from "./components/pages/Resume";
-import "../styles/App.css";
+import "./App.css";
 
 function App() {
   return (
@@ -13,10 +13,14 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/react-portfolio" element={<About />} />
-          <Route path="/react-portfolio/portfolio" element={<Portfolio />} />
-          <Route path="/react-portfolio/contact" element={<Contact />} />
-          <Route path="/react-portfolio/resume" element={<Resume />} />
+          <Route exact path="/react-portfolio" element={<About />} />
+          <Route
+            exact
+            path="/react-portfolio/portfolio"
+            element={<Portfolio />}
+          />
+          <Route exact path="/react-portfolio/contact" element={<Contact />} />
+          <Route exact path="/react-portfolio/resume" element={<Resume />} />
         </Routes>
       </Router>
     </>

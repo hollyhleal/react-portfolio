@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Navigation from "./Navigation";
-import "../styles/Header.css";
+// import "../styles/Header.css";
 
 function Header() {
   return (
