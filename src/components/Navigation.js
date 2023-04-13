@@ -6,7 +6,7 @@ function Navigation() {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
-          to="/"
+          to="/react-portfolio"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
@@ -16,7 +16,7 @@ function Navigation() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="/portfolio"
+          to="/react-portfolio/portfolio"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
@@ -26,7 +26,7 @@ function Navigation() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="/contact"
+          to="/react-portfolio/contact"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
@@ -36,7 +36,7 @@ function Navigation() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="/resume"
+          to="/react-portfolio/resume"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
