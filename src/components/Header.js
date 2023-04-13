@@ -1,5 +1,4 @@
 import "../styles/Header.css";
-import { Header, Segment } from "semantic-ui-react";
 
 function siteHeader() {
   return (
