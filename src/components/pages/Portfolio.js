@@ -5,9 +5,18 @@ function Portfolio() {
   return (
     <div>
       <h1>Check out some of my latest work...</h1>
-      <Project />
-      <Project />
-      <Project />
+      <div className="col">
+        <div className="row">
+          <Project />
+          <Project />
+          <Project />
+        </div>
+        <div className="row">
+          <Project />
+          <Project />
+          <Project />
+        </div>
+      </div>
     </div>
   );
 }
