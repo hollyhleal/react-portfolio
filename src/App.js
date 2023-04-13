@@ -11,6 +11,10 @@ function App() {
   return (
     <>
       <Router>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+        </style>
         <Header />
         <Routes>
           <Route exact path="/react-portfolio" element={<About />} />
