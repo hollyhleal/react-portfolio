@@ -1,13 +1,15 @@
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import Navigation from "./Navigation";
 import "../styles/Header.css";
 
-function siteHeader() {
+function Header() {
   return (
-    <Segment clearing>
-      <Header className="header">
-        <h1>Holly Leal</h1>
-      </Header>
-    </Segment>
+    <Container>
+      <Navbar.Brand>Holly Leal</Navbar.Brand>
+      <Navigation />
+    </Container>
   );
 }
 
-export default siteHeader;
+export default Header;

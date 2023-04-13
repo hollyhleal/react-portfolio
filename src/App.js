@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import siteHeader from "./components/Header";
-import Navigation from "./components/Navigation";
+import Header from "./components/Header";
 import About from "./components/pages/About";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
@@ -11,8 +10,7 @@ function App() {
   return (
     <>
       <Router>
-        {/* <siteHeader /> */}
-        <Navigation />
+        <Header />
         <Routes>
           <Route path="/react-portfolio" element={<About />} />
           <Route path="/react-portfolio/portfolio" element={<Portfolio />} />
