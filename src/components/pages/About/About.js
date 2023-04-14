@@ -1,6 +1,7 @@
 import React from "react";
-import hollylealphoto from "../../images/hollylealphoto.jpeg";
+import hollylealphoto from "../../../images/hollylealphoto.jpeg";
 import Image from "react-bootstrap/Image";
+import "./About.css";
 
 function About() {
   return (
@@ -13,9 +14,9 @@ function About() {
       />
       <h2>Welcome!</h2>
       <p>
-        My name is Holly Leal and I am approaching graduation in the
-        University of Denver's Full-Stack Coding Boot Camp. I live in Lakewood,
-        Colorado and enjoy hiking, skiing and traveling to new places.
+        My name is Holly Leal and I am approaching graduation in the University
+        of Denver's Full-Stack Coding Boot Camp. I live in Lakewood, Colorado
+        and enjoy hiking, skiing and traveling to new places.
       </p>
     </div>
   );

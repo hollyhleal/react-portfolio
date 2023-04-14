@@ -4,7 +4,7 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <Nav className="justify-content-end">
+    <Nav className="justify-content-center">
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <NavLink
