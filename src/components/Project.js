@@ -1,11 +1,13 @@
 import Card from "react-bootstrap/Card";
+import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/Button";
 import { projects } from "../ProjectData";
 
 function Project() {
   return (
-    <div className="col-lg-9 col-md-8 col-sm-12">
+    <Row xs={1} md={2} className="g-4">
       {projects.map(({ image, title, description, deployed, repo, id }) => (
-        <Card className="mb-3" style={{ width: "18rem" }}>
+        <Card>
           <Card.Img variant="top" src={image} />
           <Card.Body>
             <Card.Title>{title}</Card.Title>
@@ -13,16 +15,16 @@ function Project() {
           </Card.Body>
 
           <Card.Body>
-            <Card.Link href={deployed} target="_blank">
+            <Button variant="primary" href={deployed} target="_blank">
               Deployed Application
-            </Card.Link>
-            <Card.Link href={repo} target="_blank">
+            </Button>
+            <Button variant="secondary" href={repo} target="_blank">
               Repository
-            </Card.Link>
+            </Button>
           </Card.Body>
         </Card>
       ))}
-    </div>
+    </Row>
   );
 }
 
