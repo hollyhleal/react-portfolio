@@ -13,3 +13,9 @@
   --LightGreen: #c8d5b9;
   --Beige: #faf3dd;
 }
+
+p {
+  font-size: 1.2rem;
+  padding-left: 60px;
+  padding-right: 60px;
+}
