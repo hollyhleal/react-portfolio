@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.55dc27ed.css",
-    "main.js": "/react-portfolio/static/js/main.676e2539.js",
+    "main.css": "/react-portfolio/static/css/main.b6dade62.css",
+    "main.js": "/react-portfolio/static/js/main.dc16c004.js",
     "static/media/travel-buddy-screenshot.png": "/react-portfolio/static/media/travel-buddy-screenshot.ba89d2e95f27eebfb9e3.png",
     "static/media/denverrecsscreenshot.png": "/react-portfolio/static/media/denverrecsscreenshot.f4ac5347c6e04046b00c.png",
     "static/media/devlore-screenshot.png": "/react-portfolio/static/media/devlore-screenshot.de92365ea1d57c7722ef.png",
@@ -10,11 +10,11 @@
     "static/media/hollylealphoto.jpeg": "/react-portfolio/static/media/hollylealphoto.a77ce784654b2fae2234.jpeg",
     "static/media/terminalicon.jpg": "/react-portfolio/static/media/terminalicon.b253d2913c1df00b5c74.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.55dc27ed.css.map": "/react-portfolio/static/css/main.55dc27ed.css.map",
-    "main.676e2539.js.map": "/react-portfolio/static/js/main.676e2539.js.map"
+    "main.b6dade62.css.map": "/react-portfolio/static/css/main.b6dade62.css.map",
+    "main.dc16c004.js.map": "/react-portfolio/static/js/main.dc16c004.js.map"
   },
   "entrypoints": [
-    "static/css/main.55dc27ed.css",
-    "static/js/main.676e2539.js"
+    "static/css/main.b6dade62.css",
+    "static/js/main.dc16c004.js"
   ]
 }
