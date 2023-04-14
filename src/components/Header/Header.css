@@ -1,0 +1,9 @@
+.header {
+  float: left;
+}
+
+h1 {
+  padding: 25px;
+  color: #faf3dd;
+  font-size: 3rem;
+}
