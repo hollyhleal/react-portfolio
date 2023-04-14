@@ -17,7 +17,7 @@ function Project() {
           <Card.Body>
             <Button variant="primary" href={deployed} target="_blank">
               Deployed Application
-            </Button>
+            </Button>{" "}
             <Button variant="secondary" href={repo} target="_blank">
               Repository
             </Button>

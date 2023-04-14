@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header.js";
 import Footer from "./components/Footer/Footer.js";
-import About from "./components/pages/About/About";
+import About from "./components/pages/About/About.js";
 import Portfolio from "./components/pages/Portfolio/Portfolio.js";
 import Contact from "./components/pages/Contact/Contact.js";
-import Resume from "./components/pages/Resume";
+import Resume from "./components/pages/Resume/Resume.js";
 import "./App.css";
 
 function App() {
