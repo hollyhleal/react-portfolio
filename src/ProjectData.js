@@ -1,6 +1,12 @@
+import betaTasters from "./images/devlore-screenshot.png";
+import travelBuddy from "./images/travel-buddy-screenshot.png";
+import denverRecs from "./images/denverrecsscreenshot.png";
+import terminalIcon from "./images/terminalicon.jpg";
+import workDay from "./images/work-day-scheduler-screenshot.png";
+
 export const projects = [
   {
-    image: "./images/devlore-screenshot.png",
+    image: betaTasters,
     title: "Beta Tasters",
     description:
       "This full-stack application allows restaurant managers to build and post a menu and allows for users to review the given menu. This way, restaurants can have their first step into 'Beta-Tasting' their menu prior to open!",
@@ -9,7 +15,7 @@ export const projects = [
     id: 0,
   },
   {
-    image: "src/images/travel-buddy-screenshot.png",
+    image: travelBuddy,
     title: "Travel Buddy",
     description:
       "This front-end application allows for a traveler to enter their destination and dates of travel, and receive brewery recommendations and event suggestions in the area for the time of their visit.",
@@ -18,7 +24,7 @@ export const projects = [
     id: 1,
   },
   {
-    image: "src/images/denverrecsscreenshot.png",
+    image: denverRecs,
     title: "Denver Recs",
     description:
       "A front-end application displaying entertainment recommendations for the Denver, CO area.",
@@ -27,7 +33,7 @@ export const projects = [
     id: 2,
   },
   {
-    image: "",
+    image: terminalIcon,
     title: "SVG Logo Generator",
     description:
       "Command-line application to develop a simple SVG logo based on user input.",
@@ -37,7 +43,7 @@ export const projects = [
     id: 3,
   },
   {
-    image: "",
+    image: terminalIcon,
     title: "E-Commerce Back End",
     description:
       "Back end application for an e-commerce website using Express.js and MySQL.",
@@ -47,7 +53,7 @@ export const projects = [
     id: 4,
   },
   {
-    image: "",
+    image: workDay,
     title: "Work Day Scheduler",
     description:
       "Application that allows the user to add hourly tasks and displays colors coordinated with past, present and future times.",
