@@ -1,9 +1,5 @@
-/* .header {
-  float: left;
-} */
-
 h1 {
   padding: 20px;
-  color: var(--Turqoise);
+  color: var(--Turquoise);
   font-size: 3rem;
 }

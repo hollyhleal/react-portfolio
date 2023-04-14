@@ -5,18 +5,26 @@ import "./Navigation.css";
 function Navigation() {
   return (
     <Nav className="justify-content-center">
-      <ul className="nav nav-tabs">
+      <ul className="nav">
         <li className="nav-item">
-          <NavLink to="/react-portfolio">ABOUT ME</NavLink>
+          <NavLink to="/react-portfolio" className="navStyle">
+            ABOUT ME
+          </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/react-portfolio/portfolio">PORTFOLIO</NavLink>
+          <NavLink to="/react-portfolio/portfolio" className="navStyle">
+            PORTFOLIO
+          </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/react-portfolio/contact">CONTACT</NavLink>
+          <NavLink to="/react-portfolio/contact" className="navStyle">
+            CONTACT
+          </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/react-portfolio/resume">RESUME</NavLink>
+          <NavLink to="/react-portfolio/resume" className="navStyle">
+            RESUME
+          </NavLink>
         </li>
       </ul>
     </Nav>

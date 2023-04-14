@@ -1,11 +1,6 @@
-.nav {
-  overflow: auto;
-  color: var(--Turqoise);
-}
-
-.nav-item {
+.navStyle {
   text-decoration: none;
-  color: var(--Turqoise);
+  color: var(--BodyText);
   padding: 12px;
   font-size: 1.2rem;
 }
