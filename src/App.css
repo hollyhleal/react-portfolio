@@ -23,3 +23,7 @@ p {
   padding-right: 60px;
   color: var(--BodyText);
 }
+
+h2 {
+  color: var(--Turquoise);
+}

@@ -6,7 +6,7 @@ import { projects } from "../ProjectData";
 function Project() {
   return (
     <Row xs={1} md={2} className="g-4">
-      {projects.map(({ image, title, description, deployed, repo, id }) => (
+      {projects.map(({ image, title, description, deployed, repo }) => (
         <Card>
           <Card.Img variant="top" src={image} />
           <Card.Body>
