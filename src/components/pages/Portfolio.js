@@ -3,19 +3,10 @@ import Project from "../Project";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="container">
       <h1>Check out some of my latest work...</h1>
-      <div className="col">
-        <div className="row">
-          <Project />
-          <Project />
-          <Project />
-        </div>
-        <div className="row">
-          <Project />
-          <Project />
-          <Project />
-        </div>
+      <div className="row justify-content-between">
+        <Project />
       </div>
     </div>
   );
