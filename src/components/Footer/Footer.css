@@ -1,4 +1,10 @@
 .socialIcon {
-  fill: var(--DarkGreen);
+  fill: var(--Icons);
   padding: 5px;
+}
+
+.footer {
+  position: fixed-bottom;
+  width: 100%;
+  bottom: 30px;
 }
