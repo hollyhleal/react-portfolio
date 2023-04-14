@@ -1,4 +1,12 @@
 * {
-  background-color: #68b0ab;
+  background-color: var(--Turqoise);
   font-family: "Source Sans Pro", sans-serif;
+}
+
+:root {
+  --DarkGreen: #4a7c59;
+  --Turqoise: #68b0ab;
+  --MintGreen: #8fc0a9;
+  --LightGreen: #c8d5b9;
+  --Beige: #faf3dd;
 }
