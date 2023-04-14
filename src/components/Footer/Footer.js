@@ -1,6 +1,8 @@
+import "./Footer.css";
+
 function Footer() {
   return (
-    <div className="col">
+    <div className="col icons">
       <a href="https://github.com/hollyhleal" target="_blank" rel="noreferrer">
         <svg
           xmlns="http://www.w3.org/2000/svg"

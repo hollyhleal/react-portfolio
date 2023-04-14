@@ -1,9 +1,9 @@
-.header {
+/* .header {
   float: left;
-}
+} */
 
 h1 {
-  padding: 25px;
-  color: #faf3dd;
+  padding: 20px;
+  color: var(--Turqoise);
   font-size: 3rem;
 }

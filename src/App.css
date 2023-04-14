@@ -1,7 +1,9 @@
 * {
-  background-color: var(--Turqoise);
+  background-color: #eae6e5;
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 :root {

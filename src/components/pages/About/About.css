@@ -1,3 +1,13 @@
 .profileImage {
   justify-content: center;
+  width: 25%;
+  padding: 10px;
+}
+
+h2 {
+  color: var(--Turqoise);
+}
+
+p {
+  color: var(--Turqoise);
 }

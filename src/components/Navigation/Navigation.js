@@ -7,44 +7,16 @@ function Navigation() {
     <Nav className="justify-content-center">
       <ul className="nav nav-tabs">
         <li className="nav-item">
-          <NavLink
-            to="/react-portfolio"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
-          >
-            ABOUT ME
-          </NavLink>
+          <NavLink to="/react-portfolio">ABOUT ME</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink
-            to="/react-portfolio/portfolio"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
-          >
-            PORTFOLIO
-          </NavLink>
+          <NavLink to="/react-portfolio/portfolio">PORTFOLIO</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink
-            to="/react-portfolio/contact"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
-          >
-            CONTACT
-          </NavLink>
+          <NavLink to="/react-portfolio/contact">CONTACT</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink
-            to="/react-portfolio/resume"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
-          >
-            RESUME
-          </NavLink>
+          <NavLink to="/react-portfolio/resume">RESUME</NavLink>
         </li>
       </ul>
     </Nav>
