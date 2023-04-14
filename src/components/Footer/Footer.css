@@ -1,4 +1,4 @@
-.icons {
-  color: #faf3dd;
-  padding: 20px;
+.socialIcon {
+  fill: var(--DarkGreen);
+  padding: 5px;
 }

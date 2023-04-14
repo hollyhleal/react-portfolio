@@ -2,13 +2,17 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="col icons">
-      <a href="https://github.com/hollyhleal" target="_blank" rel="noreferrer">
+    <div className="col">
+      <a
+        href="https://github.com/hollyhleal"
+        target="_blank"
+        rel="noreferrer"
+        className="socialIcon"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
+          width="35"
+          height="35"
           class="bi bi-github"
           viewBox="0 0 16 16"
         >
@@ -19,12 +23,12 @@ function Footer() {
         href="https://www.linkedin.com/in/hollyleal/"
         target="_blank"
         rel="noreferrer"
+        className="socialIcon"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
+          width="35"
+          height="35"
           class="bi bi-linkedin"
           viewBox="0 0 16 16"
         >
@@ -35,12 +39,12 @@ function Footer() {
         href="https://stackoverflow.com/users/21637965/holly-leal"
         target="_blank"
         rel="noreferrer"
+        className="socialIcon"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
+          width="35"
+          height="35"
           class="bi bi-stack-overflow"
           viewBox="0 0 16 16"
         >
