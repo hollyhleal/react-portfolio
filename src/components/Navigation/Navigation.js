@@ -4,7 +4,11 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <Nav className="justify-content-center">
+    <Nav
+      className="justify-content-center"
+      // activeKey="/react-portfolio"
+      onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+    >
       <ul className="nav">
         <li className="nav-item">
           <NavLink to="/react-portfolio" className="navStyle">
