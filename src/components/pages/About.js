@@ -11,8 +11,9 @@ function About() {
         src={hollylealphoto}
         alt="Holly Leal profile"
       />
+      <h2>Welcome!</h2>
       <p>
-        Welcome! My name is Holly Leal and I am approaching graduation in the
+        My name is Holly Leal and I am approaching graduation in the
         University of Denver's Full-Stack Coding Boot Camp. I live in Lakewood,
         Colorado and enjoy hiking, skiing and traveling to new places.
       </p>

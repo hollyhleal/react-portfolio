@@ -6,7 +6,9 @@ import Navigation from "./Navigation";
 function Header() {
   return (
     <Container fluid>
-      <Navbar.Brand>Holly Leal</Navbar.Brand>
+      <Navbar.Brand>
+        <h1>Holly Leal</h1>
+      </Navbar.Brand>
       <Navigation />
     </Container>
   );

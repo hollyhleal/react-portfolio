@@ -13,7 +13,7 @@ function Navigation() {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            About Me
+            ABOUT ME
           </Link>
         </li>
         <li className="nav-item">
@@ -23,7 +23,7 @@ function Navigation() {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            Portfolio
+            PORTFOLIO
           </Link>
         </li>
         <li className="nav-item">
@@ -33,7 +33,7 @@ function Navigation() {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            Contact
+            CONTACT
           </Link>
         </li>
         <li className="nav-item">
@@ -43,7 +43,7 @@ function Navigation() {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            Resume
+            RESUME
           </Link>
         </li>
       </ul>
