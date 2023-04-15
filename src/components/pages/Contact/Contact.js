@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import "../Contact/Contact.css";
 
 function Contact() {
   const form = useRef();
@@ -34,16 +35,54 @@ function Contact() {
   };
 
   return (
-    <div>
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div className="container">
+      <h3>Contact me via LinkedIn, or by completing the form below.</h3>
+      <form ref={form} onSubmit={sendEmail}>
+        <div className="row">
+          <div className="col-25">
+            <label className="formField">Name: </label>
+          </div>
+          <div className="col-75">
+            <input
+              type="text"
+              name="user_name"
+              className="userInput"
+              placeholder="Your Name..."
+            />
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-25">
+            <label className="formField">Email: </label>
+          </div>
+          <div className="col-75">
+            <input
+              type="email"
+              name="user_email"
+              className="userInput"
+              placeholder="Your Email Address..."
+            />
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-25">
+            <label className="formField">Message: </label>
+          </div>
+          <div className="col-75">
+            <textarea
+              name="message"
+              className="userInput"
+              placeholder="Your message goes here..."
+            />
+          </div>
+        </div>
+
+        <div className="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
     </div>
   );
 }
