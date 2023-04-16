@@ -10,3 +10,11 @@
   background-color: var(--Icons) !important;
   color: var(--Beige) !important;
 }
+
+.card {
+  margin: 20px;
+}
+
+h5 {
+  color: var(--Turquoise);
+}
