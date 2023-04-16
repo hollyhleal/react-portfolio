@@ -6,8 +6,7 @@ function Navigation() {
   return (
     <Nav
       className="justify-content-center"
-      // activeKey="/react-portfolio"
-      onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+      activeKey="/react-portfolio"
     >
       <ul className="nav">
         <li className="nav-item">
