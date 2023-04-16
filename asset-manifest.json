@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.4e2e32d6.css",
-    "main.js": "/react-portfolio/static/js/main.d9e7ed00.js",
-    "static/media/travel-buddy-screenshot.png": "/react-portfolio/static/media/travel-buddy-screenshot.ba89d2e95f27eebfb9e3.png",
-    "static/media/denverrecsscreenshot.png": "/react-portfolio/static/media/denverrecsscreenshot.f4ac5347c6e04046b00c.png",
-    "static/media/devlore-screenshot.png": "/react-portfolio/static/media/devlore-screenshot.de92365ea1d57c7722ef.png",
-    "static/media/work-day-scheduler-screenshot.png": "/react-portfolio/static/media/work-day-scheduler-screenshot.9f91fd3204cd741643c9.png",
+    "main.js": "/react-portfolio/static/js/main.0f665cac.js",
+    "static/media/devlore-screenshot.png": "/react-portfolio/static/media/devlore-screenshot.c2cffdbb4f567371dfbb.png",
+    "static/media/denverrecsscreenshot.png": "/react-portfolio/static/media/denverrecsscreenshot.89bc19484a67b52b36b6.png",
+    "static/media/travel-buddy-screenshot.png": "/react-portfolio/static/media/travel-buddy-screenshot.5f7bb825734cad5f66a4.png",
+    "static/media/work-day-scheduler-screenshot.png": "/react-portfolio/static/media/work-day-scheduler-screenshot.32d4e991a9279d3e0958.png",
     "static/media/hl-react-portfolio-resume.pdf": "/react-portfolio/static/media/hl-react-portfolio-resume.cd2b0f1e0aef32d9c640.pdf",
     "static/media/hollylealphoto.jpeg": "/react-portfolio/static/media/hollylealphoto.a77ce784654b2fae2234.jpeg",
-    "static/media/terminalicon.jpg": "/react-portfolio/static/media/terminalicon.b253d2913c1df00b5c74.jpg",
+    "static/media/terminalicon.jpg": "/react-portfolio/static/media/terminalicon.765da9cbbbe2caef2e94.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.4e2e32d6.css.map": "/react-portfolio/static/css/main.4e2e32d6.css.map",
-    "main.d9e7ed00.js.map": "/react-portfolio/static/js/main.d9e7ed00.js.map"
+    "main.0f665cac.js.map": "/react-portfolio/static/js/main.0f665cac.js.map"
   },
   "entrypoints": [
     "static/css/main.4e2e32d6.css",
-    "static/js/main.d9e7ed00.js"
+    "static/js/main.0f665cac.js"
   ]
 }
