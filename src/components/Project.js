@@ -2,7 +2,7 @@ import { projects } from "../ProjectData";
 
 function Project() {
   return (
-    <div class="row row-cols-1 row-cols-md-3">
+    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
       {projects.map(({ image, title, description, deployed, repo }) => (
         <div class="col mb-4">
           <div class="card h-100">
