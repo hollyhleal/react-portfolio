@@ -5,7 +5,7 @@ function Project() {
     <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2">
       {projects.map(({ image, title, description, deployed, repo }) => (
         <div class="col mb-4">
-          <div class="card h-100">
+          <div class="card h-100 animate__animated animate__bounceInUp">
             <img src={image} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">{title}</h5>
