@@ -4,14 +4,11 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <Nav
-      className="justify-content-center"
-      activeKey="/react-portfolio"
-    >
+    <Nav className="justify-content-center" activeKey="/react-portfolio">
       <ul className="nav">
         <li className="nav-item">
           <NavLink to="/react-portfolio" className="navStyle">
-            ABOUT ME
+            ABOUT
           </NavLink>
         </li>
         <li className="nav-item">
