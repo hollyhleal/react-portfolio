@@ -20,7 +20,7 @@ In this application I accomplished the following:
 
 ## Screenshot
 
-<img src="../src/images/react-portfolio-screenshot.png" alt="react portfolio screenshot">
+<img src="/react-portfolio-screenshot.png" alt="react portfolio screenshot">
 
 ## Deployed Application
 
