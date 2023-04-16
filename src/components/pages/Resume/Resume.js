@@ -1,3 +1,4 @@
+import "../Resume/Resume.css";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import Button from "react-bootstrap/Button";
@@ -7,13 +8,11 @@ function Resume() {
   return (
     <>
       <div>
-        <h2>Resume & Skills</h2>
+        <h3>Resume & Skills</h3>
       </div>
       <div className="mb-2">
-        <Button variant="primary" size="lg">
-          <a href={resumePDF} download="hl-react-portfolio-resume.pdf">
+        <Button bsPrefix="btn" size="lg" href={resumePDF} download="holly-leal-resume.pdf">
             Download my Resume (PDF)
-          </a>
         </Button>
       </div>
       <CardGroup>
