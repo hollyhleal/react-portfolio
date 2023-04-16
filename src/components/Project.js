@@ -10,18 +10,18 @@ function Project() {
             <div class="card-body">
               <h5 class="card-title">{title}</h5>
               <p class="card-text">{description}</p>
-              <button
-                type="button"
-                className="btn"
+              <a
                 href={deployed}
                 target="_blank"
+                rel="noreferrer"
+                className="btn"
               >
                 Deployed Application
-              </button>
+              </a>
               {"  "}
-              <button type="button" className="btn" href={repo} target="_blank">
+              <a href={repo} target="_blank" rel="noreferrer" className="btn">
                 Repository
-              </button>
+              </a>
             </div>
           </div>
         </div>
