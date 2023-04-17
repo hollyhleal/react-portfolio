@@ -47,7 +47,7 @@ function Contact() {
           <div className="col-75">
             <input
               type="text"
-              name="user_name"
+              name="from_name"
               id="from_name"
               className="userInput"
               placeholder="Your Name..."
