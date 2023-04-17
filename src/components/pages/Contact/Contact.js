@@ -40,12 +40,15 @@ function Contact() {
       <form ref={form} onSubmit={sendEmail}>
         <div className="row">
           <div className="col-25">
-            <label className="formField">Name: </label>
+            <label for="from_name" className="formField">
+              Name:{" "}
+            </label>
           </div>
           <div className="col-75">
             <input
               type="text"
               name="user_name"
+              id="from_name"
               className="userInput"
               placeholder="Your Name..."
             />
@@ -54,12 +57,15 @@ function Contact() {
 
         <div className="row">
           <div className="col-25">
-            <label className="formField">Email: </label>
+            <label for="user_email" className="formField">
+              Email:{" "}
+            </label>
           </div>
           <div className="col-75">
             <input
               type="email"
               name="user_email"
+              id="user_email"
               className="userInput"
               placeholder="Your Email Address..."
             />
@@ -68,11 +74,14 @@ function Contact() {
 
         <div className="row">
           <div className="col-25">
-            <label className="formField">Message: </label>
+            <label for="message" className="formField">
+              Message:{" "}
+            </label>
           </div>
           <div className="col-75">
             <textarea
               name="message"
+              id="message"
               className="userInput"
               placeholder="Your message goes here..."
             />
