@@ -26,7 +26,7 @@ function Contact() {
             console.log(error.text);
           }
         );
-      e.target.user_name.value = "";
+      e.target.from_name.value = "";
       e.target.user_email.value = "";
       e.target.message.value = "";
     } else {
