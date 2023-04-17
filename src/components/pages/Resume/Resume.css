@@ -13,6 +13,10 @@
 
 .card {
   margin: 20px;
+  display: inline-block;
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
 
 h5 {
