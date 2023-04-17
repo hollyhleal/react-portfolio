@@ -3,6 +3,10 @@
   padding: 5px;
 }
 
+.socialIcon:hover {
+  fill: var(--BodyText);
+}
+
 .footer {
   position: fixed-bottom;
   width: 100%;
