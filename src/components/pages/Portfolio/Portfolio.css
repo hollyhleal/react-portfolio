@@ -1,5 +1,7 @@
-/* button {
-  background-color: var(--LightGreen);
-  color: var(--DarkGreen);
-  border: 2px var(--DarkGreen);
-} */
+row .linkBtn {
+  cursor: pointer;
+}
+
+.btnRow {
+  padding: 5px;
+}

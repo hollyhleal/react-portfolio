@@ -1,4 +1,5 @@
 import { projects } from "../ProjectData";
+import "../components/pages/Portfolio/Portfolio.css";
 
 function Project() {
   return (
@@ -10,18 +11,29 @@ function Project() {
             <div class="card-body">
               <h5 class="card-title">{title}</h5>
               <p class="card-text">{description}</p>
-              <a
-                href={deployed}
-                target="_blank"
-                rel="noreferrer"
-                className="btn"
-              >
-                Deployed Application
-              </a>
-              {"  "}
-              <a href={repo} target="_blank" rel="noreferrer" className="btn">
-                Repository
-              </a>
+              <div className="container">
+                <div className="btnRow row justify-content-around">
+                  <a
+                    href={deployed}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="col linkBtn btn"
+                  >
+                    Deployed Application
+                  </a>
+                </div>
+                {"  "}
+                <div className="btnRow row justify-content-around">
+                  <a
+                    href={repo}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="col linkBtn btn"
+                  >
+                    Repository
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
