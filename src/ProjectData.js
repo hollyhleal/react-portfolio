@@ -3,7 +3,7 @@ import travelBuddy from "./images/travel-buddy-screenshot.png";
 import denverRecs from "./images/denverrecsscreenshot.png";
 import terminalIcon from "./images/terminalicon.jpg";
 import workDay from "./images/work-day-scheduler-screenshot.png";
-import kitchen from "./images/the-kitchen.png";
+// import kitchen from "./images/the-kitchen.png";
 
 export const projects = [
   {
@@ -24,24 +24,24 @@ export const projects = [
     repo: "https://github.com/hollyhleal/travel-buddy",
     id: 1,
   },
-  // {
-  //   image: denverRecs,
-  //   title: "Denver Recs",
-  //   description:
-  //     "A front-end application displaying entertainment recommendations for the Denver, CO area.",
-  //   deployed: "https://hollyhleal.github.io/denver-recs/",
-  //   repo: "https://github.com/hollyhleal/denver-recs",
-  //   id: 2,
-  // },
   {
-    image: kitchen,
-    title: "The Kitchen",
+    image: denverRecs,
+    title: "Denver Recs",
     description:
-      "A React application allowing pickleball players to register for an account, reserve a court and pay for a court.",
-    deployed: "https://gentle-shelf-99079.herokuapp.com/",
-    repo: "https://github.com/hollyhleal/the-kitchen",
+      "A front-end application displaying entertainment recommendations for the Denver, CO area.",
+    deployed: "https://hollyhleal.github.io/denver-recs/",
+    repo: "https://github.com/hollyhleal/denver-recs",
     id: 2,
   },
+  // {
+  //   image: kitchen,
+  //   title: "The Kitchen",
+  //   description:
+  //     "A React application allowing pickleball players to register for an account, reserve a court and pay for a court.",
+  //   deployed: "https://gentle-shelf-99079.herokuapp.com/",
+  //   repo: "https://github.com/hollyhleal/the-kitchen",
+  //   id: 2,
+  // },
   {
     image: terminalIcon,
     title: "SVG Logo Generator",
