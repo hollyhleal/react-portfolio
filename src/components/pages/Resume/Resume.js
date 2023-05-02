@@ -1,6 +1,6 @@
 import "../Resume/Resume.css";
 import Button from "react-bootstrap/Button";
-import resumePDF from "../../../documents/Holly Leal Software Developer Resume.pdf";
+import resumePDF from "../../../documents/Holly Leal Full Stack Resume.pdf";
 
 function Resume() {
   return (
@@ -23,27 +23,22 @@ function Resume() {
           <div class="card-body">
             <h5 class="card-title">Front-End Skills</h5>
             <p class="card-text">
-              HTML5, CSS, Javascript ES6, JQuery, JSON, Bootstrap, AJAX,
-              Document Object Model
+              React, Typescript, HTML5, CSS, Javascript ES6, GraphQL
             </p>
           </div>
         </div>
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Back-End Skills</h5>
-            <p class="card-text">
-              MySQL, MongoDB, Express, React, Node, Handlebars, Sequelize,
-              NoSQL, API Integrations, MERN Stack, Object-Oriented Programming
-            </p>
+            <p class="card-text">MySQL, MongoDB, Express, Sequelize</p>
           </div>
         </div>
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Tools & Planning</h5>
             <p class="card-text">
-              Agile Methodology, Kanban, User Stories, Wireframes,
-              Entity-Relationship Diagrams, Git, Testing, ProWorkFlow, Jira,
-              Heroku
+              Git, Figma, Jira, Kanban, Agile Methodology, User Stories,
+              Wireframes, Heroku
             </p>
           </div>
         </div>
